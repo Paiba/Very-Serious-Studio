@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{87E9B085-602D-D666-A439-240825786CD5}") = "Jump II", "Assembly-CSharp.csproj", "{D33C876B-31DA-51C4-E5D7-D125463DC7AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D33C876B-31DA-51C4-E5D7-D125463DC7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33C876B-31DA-51C4-E5D7-D125463DC7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33C876B-31DA-51C4-E5D7-D125463DC7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33C876B-31DA-51C4-E5D7-D125463DC7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

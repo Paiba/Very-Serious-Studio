@@ -5,6 +5,10 @@ public class pulo : MonoBehaviour {
     //Movement Variables 
     public float speedForce=20f;
     public Vector2 jumpVector;
+    public bool isGrounded;
+    public Transform grounder;
+    public float raio;
+    public LayerMask ground;
 
     Rigidbody2D rb;
 
@@ -28,7 +32,9 @@ public class pulo : MonoBehaviour {
         }
         else rb.velocity = new Vector2(0, rb.velocity.y);
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        isGrounded = Physics2D.OverlapCircle(grounder.transform.position, raio, ground);
+
+        if (Input.GetKey(KeyCode.UpArrow) && isGrounded)
         {
             rb.AddForce(jumpVector, ForceMode2D.Force);
         }

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Cena pulo ok.unity
+- path: Assets/megaman animation.unity
   isLoaded: 1
   isActive: 1

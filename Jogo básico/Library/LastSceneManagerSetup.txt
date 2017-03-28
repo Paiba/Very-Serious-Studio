@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/megaman animation.unity
+- path: Assets/3. Enemy Patrol.unity
   isLoaded: 1
   isActive: 1

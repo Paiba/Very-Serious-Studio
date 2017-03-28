@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-public class pulo : MonoBehaviour {
+public class ComportamentoPlayer : MonoBehaviour {
 
     //Movement Variables 
     public float speedForce=20f;
